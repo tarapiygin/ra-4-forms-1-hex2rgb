@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.Converter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.Converter_hex-input, .Converter_rgb-output{
+  width: 100%;
+  max-width: 350px;
+  min-height: 24px;
+  box-sizing: border-box;
+}
+.Converter_rgb-output{
+  border: 1px solid black;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
